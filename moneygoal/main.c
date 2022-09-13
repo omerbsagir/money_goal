@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
-    printf("Hello world!\n");
-    return 0;
+    double thegoal, hourpay, hours;
+    int days, holidays;
+
+    printf("Please enter your goal\n");
+
+
 }
