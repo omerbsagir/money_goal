@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main()
 {
     double thegoal, hourpay, hours;
     int days, holidays;
@@ -17,6 +17,13 @@ int main(void)
     printf("Do you have any holidays in a year?\nIf there is how many days is it?\n");
     scanf("%d", &holidays);
 
+    double a, b, c ,d;
+    a = hourpay * hours;
+    b = (days*52) - holidays;
+    c = a*b;
+    d = thegoal / c;
+    printf("You need %.2lf years", d);
 
+    return 0;
 
 }
